@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Somin! 💛</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>💛 세상에서 제일 사랑하는 최소민 생일 축하해! 💛</h1>
+        <p1>To mine, my Somin</p1>
+    </header>
+    
+    <main>
+        <section class="photo-gallery">
+            <h2>Our Memories Together</h2>
+            <p>우리가 당연히 같이 찍은 귀여운 사진들도 많은데, 그것들은 서로 이미 다 공유하고 봤는데~</p>
+            <p>이 사진들도 넘 좋더라, 별거 안 하면서 자기랑 이 조용한 순간들도 넘 소중하게 생각해</p>
+            <div id="gallery">
+                <img src="C:\Users\ethan\Desktop\somin\IMG_3746.JPG" alt="Photo 1">
+                <img src="photo2.jpg" alt="Photo 2">
+                <img src="photo3.jpg" alt="Photo 3">
+                <img src="photo4.jpg" alt="Photo 4">
+                <img src="photo5.jpg" alt="Photo 5">
+            </div>
+        </section>
+
+        <section class="message">
+            <h2>My Wishes for You</h2>
+            <p>당신은 내 삶의 빛입니다. 당신의 생일이 특별하고 행복하길 바랍니다!</p>
+            <button onclick="showMore()">Read More</button>
+            <div id="more-wishes" style="display:none;">
+                <p>On this special day, I want to remind you how much you mean to me. Every moment spent with you is a treasure. I hope your birthday is filled with love and joy!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>❤️ Always yours, [Your Name]</p>
+    </footer>
+
+    <script>
+        function showMore() {
+            const moreWishes = document.getElementById('more-wishes');
+            moreWishes.style.display = moreWishes.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
